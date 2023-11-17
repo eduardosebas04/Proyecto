@@ -12,7 +12,7 @@ table{
 }
 .menu li a{
     text-decoration: none;
-    color: rgb(112, 35, 35);
+    color: rgb(11, 1, 1);
     font-weight: bold; /*negrita*/
     font-size: 18px;
 }
@@ -44,4 +44,27 @@ p{
     font-size: 18px;
     color: white;
     text-align: center;
+}
+.mi-img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid wheat;
+    border-radius: 100%; /* redondez*/
+    object-fit: cover; /*La imagen se ajusta al espacio circular*/
+}
+.cr{
+    text-align: center;
+}
+.bwe{
+    width: 75%; 
+    background-color: rgb(124, 184, 164); 
+    color: white; 
+    margin-top: 20px;
+}
+.x{
+    background-color: rgb(196, 70, 70); 
+    color: white;
+}
+body{
+    background-color: #FEF7D0;
 }

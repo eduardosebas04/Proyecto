@@ -1,34 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .mi-img{
-            height: 200px;
-            width: 200px;
-            border-radius: 100%; /* redondez*/
-            object-fit: cover; /*La imagen se ajusta al espacio circular*/
-        }
-    </style>
+    <title>Viñedo | Home</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
     <table>
+        <!--primera fila-->
         <tr>
-            <td><img src="img/uva00.jpg" class="mi-img"  alt=""></td>
-            <td><img src="img/uva00.jpg" class="mi-img"  alt=""></td>
-            <td><img src="img/uva00.jpg" class="mi-img"  alt=""></td>
+            <td><span>VIÑEDO PUROJITA</span></td>
+            <td style="text-align: right;" >www.apyvrl.pe</td>
         </tr>
+        <!--segunda fila-->
+        <tr >
+            <td colspan="2" style="text-align: right;">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </td>
+        </tr>
+        <!--título de página-->
         <tr>
-            <td><img src="../img/uva00.jpg" class="mi-img"  alt=""></td>
-            <td><img src="../img/uva00.jpg" class="mi-img"  alt=""></td>
-            <td><img src="../img/uva00.jpg" class="mi-img"  alt=""></td>
+            <td colspan="2" class="titulo">Nuestros Clientes</td>
+            
         </tr>
+        <!--banner-->
+        <table>
+            <tr>
+                <td class="cr"><img src="img/carlos.jpg" class="mi-img" alt=""></td>
+                <td class="cr"><img src="img/maria.jpg" class="mi-img" alt=""></td>
+                <td class="cr"><img src="img/marta.jpg" class="mi-img" alt=""></td>
+            </tr>
+            <tr>
+                <td class="cr">Carlos</td>
+                <td class="cr">Maria</td>
+                <td class="cr">Marta</td>
+            </tr>
+
+
+            <tr>
+                <td class="cr"><img src="img/Nicol.jpg" class="mi-img" alt=""></td>
+                <td class="cr"><img src="img/lucas.jpg" class="mi-img" alt=""></td>
+                <td class="cr"><img src="img/Jack.jpg" class="mi-img" alt=""></td>
+            </tr>
+            <tr>
+                <td class="cr">Nicol</td>
+                <td class="cr">Lucas</td>
+                <td class="cr">Jack</td>
+            </tr>          
+        </table>
     </table>
-
-
-
 </body>
 </html>
